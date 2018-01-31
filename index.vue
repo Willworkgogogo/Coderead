@@ -88,6 +88,7 @@
               const length = this.newslist.length;
               for (let i = length; i < length + 4; i++) {
                 this.newslist.push(i + 1);
+                // newslist的数据结构你都定义好了， 你还往里push数值？？？？
               }
               this.showLoading = 'hide';
             }, 1500)
